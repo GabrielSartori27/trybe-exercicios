@@ -3,9 +3,10 @@
 .body{background-color: rgb(76, 183, 245);}
 .origem{font-style: italic;
 color:rgb(0, 53, 114);}
-.git{font-weight: 1000; height: 25px;}
-.html{font-weight: 800; height: 25px;}
+.git{font-weight: 1000; height: 25px; font-style: oblique;}
+.html{font-weight: 800; height: 25px;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .css{font-weight: 600; height: 25px;}
-.jvs{font-weight: 400; height: 25px;}
+.jvs{font-weight: 400; height: 25px;font-family: monospace; }
 .descricao{font-size: large;position: absolute; top: 290px; left: 180px;}
 #imagem{background-color:aquamarine; padding: 7px; width: 150px;}
+.impar{background-color: aquamarine; width: 220px;}

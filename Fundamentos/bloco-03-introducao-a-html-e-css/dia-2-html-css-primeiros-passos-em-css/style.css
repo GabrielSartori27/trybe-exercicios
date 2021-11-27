@@ -1,5 +1,5 @@
 .nome{font-size: 23px;}
-#sobremim{font-size: 22px;}    
+#sobremim{font-size: 27px;}    
 .body{background-color: rgb(76, 183, 245);}
 .origem{font-style: italic;
 color:rgb(0, 53, 114);}
@@ -7,3 +7,4 @@ color:rgb(0, 53, 114);}
 .html{font-weight: 800; height: 25px;}
 .css{font-weight: 600; height: 25px;}
 .jvs{font-weight: 400; height: 25px;}
+.descricao{font-size: large;}

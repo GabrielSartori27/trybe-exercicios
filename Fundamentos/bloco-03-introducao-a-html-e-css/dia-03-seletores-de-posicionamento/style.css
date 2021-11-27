@@ -1,5 +1,5 @@
 .nome{font-size: 23px;}
-#sobremim{font-size: 27px;}    
+#sobremim{font-size: 27px; position: absolute; top: 188px; left: 180px;}    
 .body{background-color: rgb(76, 183, 245);}
 .origem{font-style: italic;
 color:rgb(0, 53, 114);}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.1</title>
+    
+    <style>
+      main, section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header> 
+      <h1 class="title">Exercício 5.1 - JavaEscripito </h1>
+    </header>    
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+        //Exercício 1
+        function exercicio1(){
+            document.getElementsByTagName('p')[0].innerHTML = 'Empregado na área de programação e fluente em inglês.'}
+        exercicio1();
+        //Exercício 2
+        function exercicio2(){
+            document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
+        }
+        exercicio2();
+        //Exercício 3
+        function exercicio3(){
+            document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
+        }
+        exercicio3();
+        //Exercício 4
+        function exercicio4(){
+            document.getElementsByTagName('h1')[0].innerHTML = 'Exercício 5.1 - JavaScript';
+        }
+        exercicio4();
+        //Exercício 5
+        function exercicio5(){
+            document.getElementsByClassName('main-content')[0].style.textTransform = 'uppercase';
+        }
+       exercicio5();
+       //Exercício 6
+       function exercicio6(){
+           let p = document.getElementsByTagName('p');
+           for(let i = 0; i < p.length; i += 1){
+               console.log(p[i].innerHTML)
+           }
+       }
+       exercicio6();
+    </script>
+  </body>
+</html>
